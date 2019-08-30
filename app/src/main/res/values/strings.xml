@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Meterial Design Tutorial</string>
+    <string name="item01">Item01</string>
+    <string name="username">Eshan D Wijesinghe</string>
+    <string name="user_email">dilmina.eshan.d@gmail.com</string>
+    <string name="open_drwer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="user_name">Username</string>
+    <string name="email_address">Email Address</string>
+</resources>
