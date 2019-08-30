@@ -17,6 +17,7 @@ public class Main2ActivityTextField extends AppCompatActivity {
     AppCompatEditText passs;
     RelativeLayout relativeLayout;
     TextInputLayout userlayout;
+    TextInputLayout passlayout;
 
     Toolbar toolbar;
 
@@ -32,7 +33,8 @@ public class Main2ActivityTextField extends AppCompatActivity {
         user=findViewById(R.id.textField);
         relativeLayout =findViewById(R.id.realativeLayout);
         relativeLayout.setOnClickListener(null);
-        userlayout.findViewById(R.id.usernmaetextInput);
+        userlayout = findViewById(R.id.usernmaetextInput);
+        passlayout = findViewById(R.id.emailetextInput);
 
         user.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
@@ -66,6 +68,8 @@ public class Main2ActivityTextField extends AppCompatActivity {
 
             }
         });
+        passlayout.setCounterEnabled(true);
+        passlayout.setCounterMaxLength(6);
 
     }
 }

@@ -7,4 +7,6 @@
     <string name="close_drawer">Close Drawer</string>
     <string name="user_name">Username</string>
     <string name="email_address">Email Address</string>
+    <string name="raised_button">Raised Button</string>
+    <string name="flat_button">Flat Button</string>
 </resources>

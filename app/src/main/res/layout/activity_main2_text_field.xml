@@ -29,7 +29,9 @@
         android:layout_below="@+id/usernmaetextInput"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:id="@+id/emailetextInput">
+        android:id="@+id/emailetextInput"
+        app:counterOverflowTextAppearance="@style/CharacterOverflow"
+        app:passwordToggleEnabled="true">
 
         <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
